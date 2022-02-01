@@ -1,0 +1,31 @@
+:root {
+  --theme-colour: #1d1d1f;
+  --text-color: #ffffff;
+  --button-col: #bb86fc;
+}
+
+
+#course-panel {
+  background-color: #1d0836;
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  background-color: rgba(17, 25, 40, 0.75);
+  border: 1px solid rgba(255, 255, 255, 0.125);
+}
+
+.course-panel {
+  display: grid;
+  grid-template-rows: 1rem repeat(1, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 2rem;
+  grid-row-gap: 2rem;
+}
+.box {
+  background-color: var(--button-col);
+  margin: 1.65rem 2rem;
+}
+
+.course-tag {
+  grid-column-start: 1;
+  grid-column-end: 4;
+}

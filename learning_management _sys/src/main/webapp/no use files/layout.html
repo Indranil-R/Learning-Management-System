@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/08b40d8018.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="layout.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <section id="topbar">
+      <i class="fas fa-book-open" id="logo">&nbspTHUNDER LMS</i>
+      <a href="#" class="nav-ul-li">Dashboard</a>
+      <a href="#" class="nav-ul-li">Assesment</a>
+      <a href="#" class="nav-ul-li">ScoreCard</a>
+      <form action="logout">
+        <button type="submit" id="logout">Logout</button>
+      </form>
+    </section>
+    <section id="main-div">
+      <div id="course-panel">
+        <div class="box1"></div>
+        <div class="box2"></div>
+        <div class="box3"></div>
+        <div class="box4"></div>
+        <div class="box5"></div>
+        <div class="box6"></div>
+      </div>
+      <div id="detail-panel">
+        <i class="fas fa-id-card" id="idCard">&nbspCurrent User Details</i>
+        <p>Name ${name}</p>
+        <p>Username ${name}</p>
+        <p>Email ${name}</p>
+        <p>Phone ${name}</p>
+        <p>Trainer ${name}</p>
+        <p>City ${name}</p>
+        <form action="editDetails" class="edit-details">
+          <input type="submit" value="Update Details" id="updateDetails" />
+        </form>
+      </div>
+    </section>
+    <section id="footer">
+      <p>
+        (c) Copyright 2022 - HCL Training & Staffing Services | All rights
+        reserved
+      </p>
+    </section>
+    <!-- Component -->
+  </body>
+</html>

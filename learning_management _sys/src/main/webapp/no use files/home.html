@@ -1,0 +1,142 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/08b40d8018.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/courses.css" />
+
+    <title>Document</title>
+  </head>
+  <body>
+   
+    
+
+      
+
+	<section class="topbar ">
+		<nav class="navbar navbar-expand-lg navbar-light bg-secondary">
+			<div
+				class="container-fluid justify-content-between navbar-nav mx-5 py-2">
+
+
+			
+				<a class="navbar-brand text-white" > 
+          <i class="bi bi-journals d-inline-block align-text-top"></i>
+          &nbsp;THUNDER LMS
+          </a>
+  
+          <li class="nav-item"><a class="nav-link active text-white"
+            href="#">Dashboard</a></li>
+          <li class="nav-item "><a class="nav-link text-white"
+            href="#">Assesment</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="#">ScoreCard</a></li>
+          <form action="logout">
+            <button class="nav-link text-primary btn btn-light" type="submit">
+              Logout&nbsp;<i class="bi bi-box-arrow-right"></i>
+            </button>
+  
+            </button>
+          </form>
+        </div>
+      </nav>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </section>
+    <section id="main-div">
+      <div id="course-panel" class="course-panel">
+        <p class="course-tag">JAVA</p>
+        <div class="box term1">
+          <p class="term1-p">Core Java</p>
+          <img src="images/java.png" alt="" class="term1-img" />
+          <p class="term1-desc">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque,
+            quod.
+          </p>
+          <button>
+            <a href="https://www.javatpoint.com/java-tutorial" target=" "
+              >Start Learning</a
+            >
+          </button>
+        </div>
+        <div class="box term2">
+          <p class="term2-p">Java JDBC</p>
+          <img src="images/javaJdbc.jfif" alt="" class="term2-img" />
+          <p class="term2-desc">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque,
+            quod.
+          </p>
+          <button>
+            <a href="https://www.javatpoint.com/java-jdbc">Start Learning</a>
+          </button>
+        </div>
+        <div class="box term3">
+          <p class="term3-p">Advanced Java</p>
+          <img src="images/advancedJava.jpg" alt="" class="term3-img" />
+          <p class="term3-desc">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque,
+            quod.
+          </p>
+          <button>
+            <a href="https://www.javatpoint.com/what-is-advance-java"
+              >Start Learning</a
+            >
+          </button>
+        </div>
+      </div>
+      <div id="detail-panel">
+        <i class="fas fa-id-card" id="idCard">&nbspUser Details</i>
+
+        <p>Name : ${name}</p>
+        <p>Username : ${username}</p>
+        <p>Email : ${email}</p>
+        <p>Contact : ${phone}</p>
+        <p>Trainer : ${trainer}</p>
+        <p>City : ${city}</p>
+        <form action="editDetails" class="edit-details">
+          <input type="submit" value="Update Details" id="updateDetails" />
+        </form>
+      </div>
+    </section>
+    <section id="footer">
+      <p>
+        (c) Copyright 2022 - HCL Training & Staffing Services | All rights
+        reserved
+      </p>
+    </section>
+    <!-- Component -->
+  </body>
+</html>

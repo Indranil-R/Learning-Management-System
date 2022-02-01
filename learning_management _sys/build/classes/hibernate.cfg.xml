@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+
+
+<hibernate-configuration>
+
+	<session-factory>
+
+
+		<!-- fill your code here -->
+
+
+
+		<!-- Database connection settings -->
+		<property name="hibernate.connection.driver_class">oracle.jdbc.OracleDriver</property>
+
+
+
+		<!-- JDBC connection pool (use the built-in) -->
+		<property name="connection.pool_size">2</property>
+
+		<!-- SQL dialect -->
+		<property name="hibernate.dialect">org.hibernate.dialect.Oracle8iDialect</property>
+
+		<!-- Disable the second-level cache -->
+		<property name="hibernate.cache.provider_class">org.hibernate.cache.internal.NoCacheProvider</property>
+
+		<!-- Echo all executed SQL to stdout -->
+		<property name="hibernate.show_sql">true</property>
+
+		<!-- Drop and re-create the database schema on startup -->
+		<property name="hibernate.hbm2ddl.auto">update</property>
+
+		<property name="hibernate.current_session_context_class">thread</property>
+
+		<!-- Names the annotated entity class -->
+
+
+		<mapping class="com.entity.Student" />
+		<mapping class="com.entity.Announcement" />
+		<mapping class="com.entity.Quiz" />
+
+	</session-factory>
+</hibernate-configuration>

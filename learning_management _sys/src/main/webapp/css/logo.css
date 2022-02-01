@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&family=Roboto&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+
+#logo {
+	font-weight: bold;
+	font-style: normal;
+}
+
+.footer {
+	font-size: small;
+}
+
+
+.bottom {
+	position: relative;
+	bottom: 0;
+}

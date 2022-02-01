@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/index.css" />
+    <script
+      src="https://kit.fontawesome.com/08b40d8018.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>ThunderLMS</title>
+  </head>
+  <body>
+    <section id="topbar">
+      <i id="logo" class="fas fa-book-open">&nbspTHUNDER LMS</i>
+      <form action="/adminLogin">
+        <button id="about-us">Admin Login</button>
+      </form>
+    </section>
+    <section id="main">
+      <form action="login" id="loginForm">
+        <i id="icon" class="fas fa-user-circle"></i>
+        <div id="input-field">
+          <input
+            type="text"
+            name="username"
+            id="username"
+            placeholder="Username"
+            required
+          />
+          <br />
+          <input
+            type="password"
+            name="password"
+            id="password"
+            placeholder="Password"
+            required
+          />
+        </div>
+        <button id="login-button" type="submit">Login</button>
+        <!-- <input type="submit" value="login" id="login-button" /> -->
+      </form>
+    </section>
+    <section id="footer">
+      <p>(c) Copyright 2022 - Thunder Educations | All rights reserved</p>
+    </section>
+  </body>
+</html>

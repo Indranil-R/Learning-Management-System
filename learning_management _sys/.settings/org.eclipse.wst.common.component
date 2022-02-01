@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="learning_management _sys">
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <dependent-module archiveName="antlr-2.7.7.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/antlr-2.7.7/antlr-2.7.7">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="hibernate-entitymanager-4.3.11.Final.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/hibernate-entitymanager-4.3.11.Final/hibernate-entitymanager-4.3.11.Final">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="hibernate-jpamodelgen-4.3.11.Final.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/hibernate-jpamodelgen-4.3.11.Final/hibernate-jpamodelgen-4.3.11.Final">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="rhq-pluginAnnotations-3.0.4.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/rhq-pluginAnnotations-3.0.4/rhq-pluginAnnotations-3.0.4">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="org.osgi.compendium-4.3.1.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/org.osgi.compendium-4.3.1/org.osgi.compendium-4.3.1">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="javassist-3.18.1-GA.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/javassist-3.18.1-GA/javassist-3.18.1-GA">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="hibernate-envers-4.3.11.Final.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/hibernate-envers-4.3.11.Final/hibernate-envers-4.3.11.Final">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="proxool-0.8.3.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/proxool-0.8.3/proxool-0.8.3">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="slf4j-api-1.6.1.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/slf4j-api-1.6.1/slf4j-api-1.6.1">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="javax.servlet-3.0.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/javax.servlet-3.0/javax.servlet-3.0">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="ehcache-core-2.4.3.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/ehcache-core-2.4.3/ehcache-core-2.4.3">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="hibernate-ehcache-4.3.11.Final.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/hibernate-ehcache-4.3.11.Final/hibernate-ehcache-4.3.11.Final">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="infinispan-commons-6.0.0.Final.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/infinispan-commons-6.0.0.Final/infinispan-commons-6.0.0.Final">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="infinispan-core-6.0.0.Final.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/infinispan-core-6.0.0.Final/infinispan-core-6.0.0.Final">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="hibernate-c3p0-4.3.11.Final.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/hibernate-c3p0-4.3.11.Final/hibernate-c3p0-4.3.11.Final">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jboss-logging-annotations-1.2.0.Beta1.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jboss-logging-annotations-1.2.0.Beta1/jboss-logging-annotations-1.2.0.Beta1">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="hibernate-osgi-4.3.11.Final.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/hibernate-osgi-4.3.11.Final/hibernate-osgi-4.3.11.Final">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jboss-transaction-api_1.2_spec-1.0.0.Final.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jboss-transaction-api_1.2_spec-1.0.0.Final/jboss-transaction-api_1.2_spec-1.0.0.Final">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="org.osgi.core-4.3.1.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/org.osgi.core-4.3.1/org.osgi.core-4.3.1">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="dom4j-1.6.1.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/dom4j-1.6.1/dom4j-1.6.1">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="hibernate-jpa-2.1-api-1.0.0.Final.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/hibernate-jpa-2.1-api-1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="hibernate-proxool-4.3.11.Final.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/hibernate-proxool-4.3.11.Final/hibernate-proxool-4.3.11.Final">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jgroups-3.4.1.Final.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jgroups-3.4.1.Final/jgroups-3.4.1.Final">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="hibernate-infinispan-4.3.11.Final-tests.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/hibernate-infinispan-4.3.11.Final-tests/hibernate-infinispan-4.3.11.Final-tests">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jboss-logging-3.1.3.GA.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jboss-logging-3.1.3.GA/jboss-logging-3.1.3.GA">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jandex-1.1.0.Final.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jandex-1.1.0.Final/jandex-1.1.0.Final">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="ojdbc10.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/ojdbc10/ojdbc10">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jboss-transaction-api_1.1_spec-1.0.1.Final.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jboss-transaction-api_1.1_spec-1.0.1.Final/jboss-transaction-api_1.1_spec-1.0.1.Final">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jboss-marshalling-1.3.18.GA.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jboss-marshalling-1.3.18.GA/jboss-marshalling-1.3.18.GA">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="hibernate-commons-annotations-4.0.5.Final.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/hibernate-commons-annotations-4.0.5.Final/hibernate-commons-annotations-4.0.5.Final">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="hibernate-infinispan-4.3.11.Final.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/hibernate-infinispan-4.3.11.Final/hibernate-infinispan-4.3.11.Final">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jboss-marshalling-river-1.3.18.GA.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jboss-marshalling-river-1.3.18.GA/jboss-marshalling-river-1.3.18.GA">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="hibernate-core-4.3.11.Final.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/hibernate-core-4.3.11.Final/hibernate-core-4.3.11.Final">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="c3p0-0.9.2.1.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/c3p0-0.9.2.1/c3p0-0.9.2.1">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="mchange-commons-java-0.2.3.4.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/mchange-commons-java-0.2.3.4/mchange-commons-java-0.2.3.4">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="learning_management__sys"/>
+        <property name="java-output-path" value="/learning_management _sys/build/classes"/>
+    </wb-module>
+</project-modules>
