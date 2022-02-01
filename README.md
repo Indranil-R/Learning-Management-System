@@ -16,6 +16,8 @@ This is a solution for the students of the digital world to study online. along 
 - Integrates social learning experiences.
 - Organizes eLearning content in one location.
 
+##Language and Tools
+<code><img height="20" src="https://user-images.githubusercontent.com/87275536/152065867-daf37e45-0bd8-4b50-a9e2-e484bd85090d.png"></code>
 
 ## Getting Started
 
