@@ -11,9 +11,10 @@ This is a solution for the students of the digital world to study online. along 
 
 
 ## Features
-- Access anytime 
-- Digital Stored
-- Easy Access
+- unlimited access to eLearning materials.
+- Reduces Learning and Development costs.
+- Integrates social learning experiences.
+- Organizes eLearning content in one location.
 
 
 ## Getting Started
