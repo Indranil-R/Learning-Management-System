@@ -36,7 +36,7 @@ Password  `admin`
 
 ## Configuring Database
 
-To configure it with your databse you just need to change the ```url```, ```username``` & ```password``` in 
+To configure it with your database you just need to change the ```url```, ```username``` & ```password``` in 
 ``` oracle.properties ``` file and you are all set. 
 
 
