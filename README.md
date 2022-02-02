@@ -16,7 +16,6 @@ This is a solution for the students of the digital world to study online. along 
 - Integrates social learning experiences.
 - Organizes eLearning content in one location.
 
-
 ## Language and Tools used
 <code><img height="30" src="https://user-images.githubusercontent.com/87275536/152065867-daf37e45-0bd8-4b50-a9e2-e484bd85090d.png"></code>
 <code><img height="30" src="https://user-images.githubusercontent.com/87275536/152066652-a3d03a0b-25c6-41b3-8b4a-31a9767c938b.png"></code>
@@ -39,9 +38,9 @@ Password  `admin`
 To configure it with your database you just need to change the ```url```, ```username``` & ```password``` in 
 ``` oracle.properties ``` file and you are all set. 
 
-
-
-
+## Screenshots
+<img src="https://user-images.githubusercontent.com/87275536/152104776-e4d432af-7935-4bd4-ac62-1a4dd92d5fdc.png">
+<img    src="https://user-images.githubusercontent.com/87275536/152105957-fdc10ab2-0ba6-47b7-b56a-c894c0c1795e.jpeg">
 
 ## Feedback
 
