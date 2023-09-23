@@ -45,6 +45,6 @@ To configure it with your database you just need to change the ```url```, ```use
 ## Feedback
 
 Hope you like it. 
-If you have any feedback, please reach out to me at indranilroy2003@gmail.com
+If you have any feedback, please reach out to me 
 
 
